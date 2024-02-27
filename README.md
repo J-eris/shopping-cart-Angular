@@ -1,27 +1,71 @@
-# ShoppingCart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
+# Carrito de Compras
 
-## Development server
+En este proyecto se diseño una app de carrito de compras que contiene todas las funcionalidades correspondientes para visualizar, agregar, editar, eliminar produtos. Ademas de poder loguearse, todo esto utilizando peticiones de APIS y LocalStorage.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
 
-## Code scaffolding
+## Captura de Pantalla
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Imagen de Producto](src/assets/products.jpg)
 
-## Build
+```markdown
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Características Principales
 
-## Running unit tests
+- Panel Principal y nav
+- Vista Productos
+- Vista Detalles Productos
+- Vista Carrito de Compras
+- Vista Login
+- Vista Venta Exitosa
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Despliegue Local
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para ejecutar este proyecto se debe seguir estos pasos:
 
-## Further help
+1. **Clona el Repositorio:**
+```bash
+  git clone + <urlrepositorio>
+```
+2. **Instala las Dependencias:**
+```bash
+  npm install
+```
+3. **Ejecutar servidor desarrollo:**
+```bash
+  ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Compilación
+1. **Para construir este proyecto:**
+```bash
+  ng build
+```
+2. **Ejecutar test unitarios:**
+```bash
+  ng test
+```
+3. **Ejecución test de un extremo a otro:**
+```bash
+  ng e2e
+```
+
+## API Reference
+
+#### Api utilzada para productos
+
+```http
+  GET https://fakestoreapi.com/products
+```
+#### Api utilzada para login
+
+```http
+  POST https://fakestoreapi.com/auth/login
+```
+
+## Autores
+
+- [@J-eris](https://www.github.com/J-eris)
+
