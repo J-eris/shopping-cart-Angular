@@ -27,7 +27,7 @@ Para ejecutar este proyecto se debe seguir estos pasos:
 
 1. **Clona el Repositorio:**
 ```bash
-  git clone + <urlrepositorio>
+  git clone https://github.com/J-eris/shopping-cart-angular.git
 ```
 2. **Instala las Dependencias:**
 ```bash
