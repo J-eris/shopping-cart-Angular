@@ -58,6 +58,11 @@ Para ejecutar este proyecto se debe seguir estos pasos:
   POST https://fakestoreapi.com/auth/login
 ```
 
+## Usuario Login de Prueba
+
+- username:  johnd
+- password:  m38rmF$
+
 ## Autores
 
 - [@J-eris](https://www.github.com/J-eris)
