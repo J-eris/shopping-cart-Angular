@@ -1,0 +1,29 @@
+a:hover {
+    color: blue !important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.img-fluid {
+    height: 30px !important;
+    width: 30px !important;
+}
+.shop {
+    color: #f54242;
+}
+.cart::after {
+    display: none !important;
+} 
+.dropdown-menu{
+    right: 0%;
+}
+.CartContainer {
+    width: 320px;
+    padding: 5px;
+}
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

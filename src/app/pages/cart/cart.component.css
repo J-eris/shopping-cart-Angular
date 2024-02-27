@@ -1,0 +1,19 @@
+.table {
+    border-radius: 10px;
+}
+.inputQuantity {
+    width: 30%;
+}
+.inputGroput {
+    width: 100px;
+}
+.img-fluid {
+    height: 100px;
+    width: 100px;
+}
+.iconQuantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

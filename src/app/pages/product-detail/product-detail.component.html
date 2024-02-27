@@ -1,0 +1,18 @@
+<div *ngIf="loadingService.isLoading$ | async" class="text-center mt-3">
+    <i class="fa fa-spinner fa-spin fa-3x"></i>
+</div>
+
+<div class="container mt-4" *ngIf="product">
+    <div class="card shadow bg-light cardDetail">
+        <img [src]="product.image" class="card-img-top" alt=" {{product.title}} ">
+        <div class="card-body">
+            <h5 class="card-title text-success">{{product.title}} </h5>
+            <h4 class="text-primary"> {{product.price | currency:'Q'}} </h4>
+            <p> Categoría: <b class="text-secondary">{{product.category}}</b> </p>
+            <p class="card-text"> {{product.description}} </p>
+        </div>
+       <div class="card-footer text-center">
+            <button class="btn btn-outline-primary" (click)="addToCart(product)">Agregar al carrito</button>
+        </div>
+    </div>
+</div>

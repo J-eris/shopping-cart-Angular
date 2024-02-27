@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.cardDetail {
+    width: 30rem;
+}

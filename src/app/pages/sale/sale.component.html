@@ -1,0 +1,14 @@
+<section class="container mt-4 text-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <div class="salesHeading p-5 rounded shadow bg-light">
+                    <h2 class="mb-3 text-success">¡Pedido Exitoso!</h2>
+                    <p class="lead">¡Gracias por comprar en nuestra página!</p>
+                    <p *ngIf="isAuth()" class="mb-2"> Usuario: <b class="text-primary">{{username}}</b> </p>
+                    <p class="mb-0">Tu número de órden: <b class="text-primary">{{ orderNumber }}</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
