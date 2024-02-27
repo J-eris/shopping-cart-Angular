@@ -5,12 +5,6 @@ En este proyecto se diseño una app de carrito de compras que contiene todas las
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
 
-## Captura de Pantalla
-
-![Imagen de Producto](src/assets/products.jpg)
-
-```markdown
-
 ## Características Principales
 
 - Panel Principal y nav
@@ -20,14 +14,13 @@ Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-
 - Vista Login
 - Vista Venta Exitosa
 
-
 ## Despliegue Local
 
 Para ejecutar este proyecto se debe seguir estos pasos:
 
 1. **Clona el Repositorio:**
 ```bash
-  git clone https://github.com/J-eris/shopping-cart-angular.git
+  git clone + <urlrepositorio>
 ```
 2. **Instala las Dependencias:**
 ```bash
